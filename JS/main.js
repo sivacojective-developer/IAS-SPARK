@@ -6,7 +6,9 @@ const menu = document.getElementById("navMenu");
 
 toggle.addEventListener("click", () => {
   menu.classList.toggle("open");
+  toggle.classList.toggle("active");
 });
+
 
 
 // counter js
@@ -17,7 +19,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   const runCounter = (counter)=>{
     const target = +counter.getAttribute('data-count');
-    const suffix = counter.getAttribute('data-suffix') || ""; // %, K+, +
+    const suffix = counter.getAttribute('data-suffix') || ""; 
     let count = 0;
 
     const update = ()=>{
@@ -50,40 +52,3 @@ document.addEventListener("DOMContentLoaded", function () {
 
 });
 
-// form validation
-
-// const form = document.getElementById("leadForm");
-
-// form.addEventListener("submit", function(e){
-//   e.preventDefault();
-
-//   form.submit();
-
-//   swal({
-//     title: "Success 🎉",
-//     text: "Form submitted successfully!",
-//     icon: "success",
-//     button: "OK",
-//   });
-
-//   form.reset();
-// });
-
-// this working code 
-
-const form = document.getElementById("leadForm");
-
-form.addEventListener("submit", function(e){
-e.preventDefault();
-
-form.submit();
-
-swal({
-title: "Success!",
-text: "Form submitted successfully",
-type: "success",
-confirmButtonColor: "#3085d6"
-});
-
-form.reset();
-});
