@@ -123,7 +123,8 @@
 .child1 h2 {padding-top: 40px;}
 .learn1{right:-53%}
 .learn2 img{width:36px}
-.learn2{right:10%;top:88px}
+.learn2{right:80%;top:20px}
+.civl-inr-prt img:nth-of-type(6) {width: 30%; top: 15% !important;left: -3% !important;}
 .sprk-lft{height:316px}
 .innerparent{padding:26px 17px}
 .ias-icon1 img{width:36%}
@@ -131,7 +132,13 @@
 .prtnts-chse{padding-top:116px}
 .why-parnts-sec{margin-top:-30px}
 .why-prtnts-inrr1{padding:26px}
-.why-prtnts-inrr1 button{width:36%}
+.why-prtnts-inrr1 button{width:46%}
+.learn1 img {width: 266px;}
+.slil-ctr img {width: 40px;}
+button.btn {width: 100% !important;}
+.prtnts-chse h2 {padding: 0px 20px;}
+.test-lft { right: 4% !important;}
+.test-rft { left: 4% !important;}
 .why-inr-lft h2{width:100%}
 .why-early-icon2 img{width:100%}
 .why-early-icon2{left:80%;top:-35px}
