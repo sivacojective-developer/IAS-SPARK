@@ -23,7 +23,7 @@
 .inner-lft h1{position:absolute;top:10%}
 .map{top:258px;left:31px}
 .chart{right:28px;bottom:31%}
-.users{width:30%;left:46px;bottom:33%}
+.users{width:30%;left:46px;bottom:33%;}
 .inner-lft p{font-weight:700;text-align:center;margin-top:40px}
 .btn-hero{justify-content:center;margin-top:-30px}
 .ignite-sec{margin-top:0;padding-top:0}
@@ -40,7 +40,7 @@
 .sprk-icon2{top:30px;left:5%}
 .sprk-icon3 img{width:46px}
 .sprk-icon3{right:6%}
-.why-prtnts-inrr1 button{width:20%}
+.why-prtnts-inrr1 button{width:46%}
 .trust-sct img{width:40%}
 .trust-sct{left:-150px}
 .why-inr-lft h2{width:60%}
@@ -73,7 +73,7 @@
 .civl-inr-prt img:nth-of-type(6){width:30%}
 .civl-inr-prt img:nth-of-type(7){width:14%}
 .civl-inr-prt img:nth-of-type(8){width:14%}
-.learn1 img{width:46%}
+.learn1 img{width:306px;}
 .learn1{right:-26%}
 .hdr-ct a{padding:10px 20px;font-size:14px}
 
@@ -98,12 +98,12 @@
 .btn-hero{display:contents}
 .btn-herosec2{margin-top:-20px}
 .user-innr img{width:24px;margin-left:-2px}
-.users{width:34.4%;padding:7px;left:16px;bottom:52%;border-radius:10px}
+.users{width:34.4%;padding:7px;left:16px;bottom:185px;border-radius:10px}
 .user-innr{margin-bottom:8px}
 .card-counter{width:172px;padding:12px 0}
 .card-counter svg{height:80px;width:170px}
 .value{font-size:20px;margin-top:-42px}
-.chart{right:13px;bottom:52%}
+.chart{right:13px;bottom:180px}
 .btn-hero .btn-herosec1{margin-top:-28px}
 .inner-lft p{text-align:left}
 .inner-lft h1{top:12%}
@@ -119,7 +119,8 @@
 .vid-tb{margin-top:20px!important}
 .get-lft{height:323px}
 .what{margin-top:-100px}
-.child2{grid-template-columns:repeat(1,6fr);gap:15px}
+.child2{grid-template-columns:repeat(1,6fr);gap:15px;}
+.child1 h2 {padding-top: 40px;}
 .learn1{right:-53%}
 .learn2 img{width:36px}
 .learn2{right:10%;top:88px}
