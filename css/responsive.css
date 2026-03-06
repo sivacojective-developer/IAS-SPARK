@@ -75,26 +75,12 @@
 .learn1 img{width:306px;}
 .learn1{right:-26%}
 .hdr-ct a{padding:10px 20px;font-size:14px}
-.hro-sec {
-    display: none;
-}
-.tb-hero{display: block;}
-
-.userss {
-    width: 36%;
-}
-
-.nav-container {
-    padding: 3% 5%;
-}
-.get-lft {
-    background-size: cover;
-}
-
-.get-in h2 {
-    letter-spacing: -1.5px !important;
-}   
-
+.hro-sec{display:none}
+.tb-hero{display:block}
+.userss{width:36%}
+.nav-container{padding:3% 5%}
+.get-lft{background-size:cover}
+.get-in h2{letter-spacing:-1.5px!important}
 
 
 
@@ -107,9 +93,7 @@
 
 /* mobile-responsive */
 @media (max-width: 480px) {
-.child1 h2 {
-    margin-top: 0px;
-}
+.child1 h2 {margin-top: 0px;}
 .bnr-img{width:100%;display:none}
 .card-wrks{grid-template-columns:repeat(1,2fr)}
 .ctnr-line{display:none}
@@ -174,7 +158,9 @@
 .cta-icon-1{left:6%}
 .cta-icon-6{top:30%}
 .cta-icon-6 img{width:32px}
-.cta-parnt{padding-bottom:50px}
+.cta-parnt{padding-bottom:50px; margin-top: 100px; margin-bottom: -50px;}
+a.ct-sec2 {margin-top: -20px;}
+.innerparent{gap: 36px;}
 .cta-icon-9{top:90%;right:25%}
 .civl-inr-prt img:nth-of-type(1){width:20%}
 .civl-inr-prt img:nth-of-type(5){width:17%}
@@ -185,88 +171,21 @@
 .civl-inr-prt img:nth-of-type(4){width:19%}
 .ftr-cot2 p{padding-top:18px}
 .nav-container{padding:3% 5%}
-.hdr-ct a{padding:8px 20px;font-size:14px}
+.hdr-ct a{padding:6px 12px;font-size:12px}
 .inner-rgt{background-image:none}
 .menu-toggle{display:block}
 .nav-menu{display:none;flex-direction:column}
 .nav-menu.open{display:flex}
-.label {
-    font-size: 10px;
-    margin-top: 0px;
-}
-.userss {
-    width: 42%;
-    padding: 6px;
-    border-radius: 10px;
-}
-.tb-rate {
-    gap: 20px;
-    margin-top: -48px;
-}
-.maps {
-    margin-bottom: -40px;
-}
-.maps img {
-    width: 40px;
-}
-
-.tabs-heds h1 {
-    margin-top: 20px;
-}
-
-
+.label{font-size:10px;margin-top:0}
+.userss{width:42%;padding:6px;border-radius:10px}
+.tb-rate{gap:20px;margin-top:-48px}
+.maps{margin-bottom:-40px}
+.maps img{width:40px}
+.tabs-heds h1{margin-top:20px}
+.policy-hero{margin-top:0!important}
 
 
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* Responsive tab  1024 end*/

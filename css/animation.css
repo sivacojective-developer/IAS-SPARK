@@ -5,11 +5,11 @@
 50%{transform:translateY(-15px)}
 }
 .animated-arrow{display:inline-block;animation:bounce-up 2s ease-in-out infinite}
-@keyframes rotate-clockwise {
+/* @keyframes rotate-clockwise {
 0%{transform:rotate(0deg)}
 100%{transform:rotate(360deg)}
 }
-.rotate-clockwise{display:inline-block;animation:rotate-clockwise 3s linear infinite}
+.rotate-clockwise{display:inline-block;animation:rotate-clockwise 3s linear infinite} */
 .card-counter{background:#fff;padding:20px 0;border-radius:20px;box-shadow:0 15px 40px #00000014;text-align:center;width:220px}
 .ignite-lead{margin-top:60px;width:66%}
 svg{width:180px;height:100px}
@@ -29,9 +29,9 @@ to{stroke-dashoffset:50}
 70%{transform:scale(1)}
 }
 .heartbeat{display:inline-block;animation:heartbeat 1.9s ease-in-out infinite;transform-origin:center}
-.scrolling-words-box{height:1.03em;overflow:hidden;display:inline-block}
+.scrolling-words-box{height:1.05em;overflow:hidden;display:inline-block}
 .scrolling-words{display:flex;flex-direction:column;animation:scrollUp 5s linear infinite}
-.scrolling-words span{height:1.2em;display:flex;align-items:center;color:#FFD45D}
+.scrolling-words span{height:1.4em;display:flex;align-items:center;color:#FFD45D}
 @keyframes scrollUp {
 15%,25%{transform:translateY(-20%)}
 40%,50%{transform:translateY(-40%)}

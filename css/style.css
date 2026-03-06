@@ -1,14 +1,17 @@
 @font-face{font-family:"Quicksand";src:url(../fonts/Quicksand_Bold.woff2) format("woff2");font-weight:700;font-style:normal;font-display:swap}
 @font-face{font-family:"Plus Jakarta Sans";src:url(../fonts/PlusJakartaSans.woff2) format("woff2");font-weight:400;font-style:normal;font-display:swap}
+@font-face{font-family:"Plus Jakarta Sans medium";src:url(../fonts/PlusJakartaSans-Medium.woff2) format("woff2");font-weight:500;font-style:normal;font-display:swap}
 @font-face{font-family:"Helvetica Neue";src:url(../fonts/HelveticaNeueBold.woff2) format("woff2");font-weight:700;font-style:normal;font-display:swap}
 h1,h2,h3,h4,h5{font-family:"Quicksand",system-ui,sans-serif;font-weight:700;line-height:1.3em;}
+
+
 
 
 h3 {letter-spacing: -2px;}
 h3 {letter-spacing: -2px;}
 h5 {letter-spacing: -1px !important;}
 h3 {letter-spacing: -2px;}
-
+.sld-prnt {font-family:"Plus Jakarta Sans medium" !important;}
 
 
 h2 span{letter-spacing:-2px;} h2 {letter-spacing:-2px;}
@@ -50,9 +53,11 @@ body{font-size:var(--xll-0);line-height:1.6;color:var(--color-text);background-c
 .menu-toggle{display:none;font-size:1.5rem;background:none;border:none}
 
 /* hero section */
+.logo img {height: 70px ;width: 100%;}
 .tb-hero{display: none;}
 .hro-sec{margin-top:60px;background:#FCFCFC}
 .hero-main{display:flex;flex-direction:row;gap:40px}
+.hro-hdg p{font-size: clamp(1rem, 0.9643rem + 0.1786vw, 1.125rem) !important; }
 .inner-lft{display:flex;flex-direction:column;row-gap:40px;width:42%}
 .sprk-rgt{display:flex;flex-direction:column;row-gap:40px}
 .inner-lft p{margin-top:-14px}
@@ -161,7 +166,7 @@ a.ct-sec2{background-color:#F1F5F9;padding:12px 26px;border-radius:500px;font-fa
 .btn-primary-custom:hover{background-color:var(--color-secondary);color:#fff}
 .site-footer{background-color:#fff;padding:50px 5%}
 .footer-container{max-width:1312px;margin:auto;display:grid;grid-template-columns:2fr 1fr 2fr;gap:3rem}
-.footer-logo{height:36px;margin-bottom:1rem}
+.footer-logo{height:60px;margin: auto;}
 .footer-text{font-size:var(--xll--1);color:var(--color-text);line-height:1.6;margin-bottom:1rem}
 .footer-heading{font-size:var(--xll-1);color:#343B46;margin-bottom:1rem;font-weight:700}
 .footer-links{list-style:none}
@@ -207,6 +212,7 @@ s .footer-legal{display:flex;gap:1.5rem}
 }
 .tabs-heds h1 {
     margin-top: 38px;
+    font-family: 'Helvetica Neue';
 }
 .card-title img {
     width: 50px;

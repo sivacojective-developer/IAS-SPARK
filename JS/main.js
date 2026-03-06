@@ -1,14 +1,19 @@
 
 // Header menu toggle 
 
+document.addEventListener("click", function(e){
+
+if(e.target.closest("#menuToggle")){
+
 const toggle = document.getElementById("menuToggle");
 const menu = document.getElementById("navMenu");
 
-toggle.addEventListener("click", () => {
-  menu.classList.toggle("open");
-  toggle.classList.toggle("active");
-});
+menu.classList.toggle("open");
+toggle.classList.toggle("active");
 
+}
+
+});
 
 
 // counter js

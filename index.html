@@ -2,9 +2,9 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Landing Page</title>
-
+  <meta name="viewport" content="width=device-width initial-scale=1" />
+  <title>IAS Spark</title>
+  <link rel="icon" type="image/svg+xml" href="./Icons/IAS Spark Fav Icon.svg">
   <link rel="stylesheet" href="css/bootstrap.min.css" />
   <link rel="stylesheet" href="./css/style.css" />
   <link rel="stylesheet" href="./css/animation.css" />
@@ -19,32 +19,10 @@
 </head>
 <body>
 
-<header class="site-header">
-  <div class="nav-container">
-    <a href="/" class="logo">
-      <img src="Icons/Ias-spark-logo.svg" alt="Logo">
-    </a>
-
-    <nav class="nav-menu" id="navMenu">
-      <a href="#hero" class="active">Home</a>
-      <a href="#child-learn">About</a>
-    </nav>
-    
-    <div class="hdr-ct">
-      <a href="#get-in" class="btn-primary-custom">Contact Us</a>
-    </div>
-
-    <!-- Animated Hamburger Button -->
-    <button class="menu-toggle" id="menuToggle">
-      <span></span>
-      <span></span>
-      <span></span>
-    </button>
-  </div>
-</header>
+<div data-include="./components/header.html"></div>
 
 
-<!-- hero-sec -->
+
 <section class="hro-sec" id="hero">
 
   <div class="hero-main container-cust ">
@@ -75,7 +53,7 @@
         <div class="users">
           <div class="user-innr"><img src="./images/herosce-rt-inr-img1.png" alt=""><img src="./images/herosce-rt-inr-img2.png" alt=""><img src="./images/herosce-rt-inr-img3.png" alt=""><img src="./images/herosce-rt-inr-img4.png" alt=""></div>
           <p class="label">More than 5000+ students
-              enrolled around  India</p>
+              enrolled across India</p>
         </div>
        </div>
        <div class="inner-lft">
@@ -101,11 +79,11 @@
 
 
 
-        <p class="text-lg">Foundation & mentorship program for school students (Grade 5–12)</p>
+        <p class="text-lg">Foundation <span style="font-family: 'Plus Jakarta Sans';"><span style="font-family: 'Plus Jakarta Sans';"><span style="font-family: 'Plus Jakarta Sans';"><span style="font-family: 'Plus Jakarta Sans';">&</span></span></span></span> mentorship program for school students (Grade 5–12)</p>
 
 
       <div class="btn-hero">
-          <a href="#" class="btn  text-small btn-herosec1 ">Talk to Our Counsellor</a>
+          <a href="https://wa.me/9187050755" class="btn text-small btn-herosec1" target="_blank" rel="noopener noreferrer">Talk to Our Counsellor</a>
           <a href="#" class="btn  text-small btn-herosec2">Download Brochure</a>
       </div>
 
@@ -114,12 +92,6 @@
   </div>
 </section>
 
-
-
-<!-- tab and mobile hero section -->
-
-
-<!-- hero-sec -->
 <section class="tb-hero" id="hero">
    <div class="hero-main container-cust ">
       <div class="tabs-heds">
@@ -166,8 +138,8 @@
 
 
 
-      <div class="inner-lft">
-         <p class="text-lg">Foundation & mentorship program for school students (Grade 5–12)</p>
+      <div class="inner-lft mt-5 mb-5">
+         <p class="text-lg">Foundation <span style="font-family: 'Plus Jakarta Sans';"><span style="font-family: 'Plus Jakarta Sans';"><span style="font-family: 'Plus Jakarta Sans';"><span style="font-family: 'Plus Jakarta Sans';">&</span></span></span></span> mentorship program for school students (Grade 5–12)</p>
          <div class="btn-hero">
             <a href="#" class="btn  text-small btn-herosec1 ">Talk to Our Counsellor</a>
             <a href="#" class="btn  text-small btn-herosec2">Download Brochure</a>
@@ -176,67 +148,31 @@
    </div>
 </section>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!-- ignite section -->
-
 <section class="ignite-sec">
      <div class="container-cust">
-      
-
-      <!-- first-cont -->
     <div class="row align-items-center mb-5 position-relative d-none d-lg-flex
  flex-row-reverse">
       <div class="position-absolute img-fluid p-4 end-0 " style="top:120%; left:0%;"><img src="./Icons/skill-8.svg" alt="" class="rotate-clockwise"></div>
 
-      <!-- Left Column -->
+
       <div class="col-lg-6 ps-4">
         <h2 class="fw-bold mb-3 text-4xl">
-          <span style="color:#1E40AF;letter-spacing: -2.4px;"> “Spark curiosity, ignite<br> </span><span style="color:#FFD45D;">confidence, shape tomorrow’s leaders.”</span></span>
+          <span style="color:#1E40AF;letter-spacing: -2.4px;"> “Spark curiosity ignite<br> </span><span style="color:#FFD45D;">confidence shape tomorrow’s leaders.”</span></span>
         </h2>
       </div>
-      <!-- Right Column -->
+
      <div class="col-lg-6 text-center position-relative">
 
-  <!-- Center main image -->
+
   <img src="./Icons/ignite-img1.svg" 
   class="img-fluid rounded-4" alt="image">
 
-  <!-- Left absolute image -->
+
   <img src="./Icons/ignite-img-3.svg" 
   class="position-absolute top-0 start-0 translate-middle-y img-fluid"
   alt="image">
 
-  <!-- Right absolute image -->
+
   <img src="./Icons/ignite-img2.svg" alt="image" class="position-absolute top-0 end-0 translate-middle-y img-fluid">
 
      </div>
@@ -245,22 +181,22 @@
     </div>
  
 
-    <!-- ignite-tab -->
+
      <div class="d-flex d-lg-none align-items-center mb-5 position-relative ps-md-4 gap-4">
 
-  <!-- Left Side (30% Image) -->
+
   <div style="flex: 0 0 30%;">
     <img src="./Icons/ignite-tab.svg" class="img-fluid" alt="image">
   </div>
 
-  <!-- Right Side (70% Content) -->
+
   <div style="flex: 0 0 70%;" class="ps-4">
     <h2 class="fw-bold mb-3">
       <span style="color:#1E40AF;">
-        “Spark curiosity, ignite
+        “Spark curiosity ignite
       </span>
       <span style="color:#FFD45D;">
-        confidence, shape tomorrow’s leaders.”
+        confidence shape tomorrow’s leaders.”
       </span>
     </h2>
   </div>
@@ -269,16 +205,13 @@
 </div>
 
 
-     <!-- secont-cont -->
 
-      <!-- Main Heading -->
    <h2 class="fw-bold mb-5 text-center mx-auto  ignite-lead">
    <span style="color:#1E40AF;">India’s Best Skill Development</span> Institution for School Students
 </h2>
 
 
-    <!-- Counter Row -->
-<!-- <div class="row text-center g-4 cout-sec position-relative ctr-tab"> -->
+
   <div class="row text-center cout-sec position-relative ctr-tab d-none d-md-flex">
 
 
@@ -353,14 +286,16 @@
      
 </div>
 
-     <!-- secont-cont-end -->
+ 
 
      </div>
 </section>
 
 
+
+
   <!-- get-in-touch -->
-<section class="get-in" id="get-in">
+<section class="get-in mb-0" id="get-in">
   <div class="container-cust">
 
     <!-- Main Heading -->
@@ -409,6 +344,8 @@ target="hidden_iframe">
       <option>8th</option>
       <option>9th</option>
       <option>10th</option>
+      <option>11th</option>
+      <option>12th</option>
     </select>
   </div>
 
@@ -421,8 +358,23 @@ target="hidden_iframe">
 <!-- WhatsApp & Exam Board Inline -->
 <div class="row">
   <div class="col-md-6 mb-3">
-    <label class="form-label">Parent WhatsApp Number</label>
-    <input type="tel" name="parentWhatsapp" class="form-control" placeholder="Enter your phone number" required>
+  <label class="form-label">Parent's WhatsApp Number</label>
+
+  <input 
+    type="tel"
+    name="parentWhatsapp"
+    id="phone"
+    class="form-control"
+    placeholder="Enter valid number"
+    pattern="[6-9]{1}[0-9]{9}"
+    maxlength="10"
+    required
+  >
+
+  <small id="phoneError" class="text-danger d-none">
+    Please enter a valid 10-digit mobile number
+  </small>
+
   </div>
 
   <div class="col-md-6 mb-3">
@@ -464,7 +416,6 @@ target="hidden_iframe">
 
 
 
-<!-- what you-learn-sec -->
 
 <section class="main-sec what" id="child-learn">
   <div class="container-cust">
@@ -475,38 +426,38 @@ target="hidden_iframe">
               </h2>
             </div>
 
-            <!-- grid responsive testing -->
+
 
         <div class="child2">
               <div class="child3" data-aos="flip-up" data-aos-duration="2000">
                 <img src="./Icons/Learn2.svg" alt="">
-                <h5 class="text-xl">Thinking & Reasoning</h5>
-                <p class="text-lg">Sharpens clarity, problem solving & logical thinking.</p>
+                <h5 class="text-xl">Thinking <span style="font-family: 'Plus Jakarta Sans';"><span style="font-family: 'Plus Jakarta Sans';"><span style="font-family: 'Plus Jakarta Sans';"><span style="font-family: 'Plus Jakarta Sans';"><span style="font-family: 'Plus Jakarta Sans';">&</span></span></span></span></span> Reasoning</h5>
+                <p class="text-lg">Sharpens clarity problem solving <span style="font-family: 'Plus Jakarta Sans';"><span style="font-family: 'Plus Jakarta Sans';"><span style="font-family: 'Plus Jakarta Sans';"><span style="font-family: 'Plus Jakarta Sans';"><span style="font-family: 'Plus Jakarta Sans';">&</span></span></span></span></span> logical thinking.</p>
               </div>
                       <div class="child3" data-aos="zoom-in-down" data-aos-duration="2000">
                 <img src="./Icons/Learn1.svg" alt="">
-                <h5 class="text-xl">Communication & Expression</h5>
-                <p class="text-lg">Builds confidence in speaking, writing & expressing ideas clearly.</p>
+                <h5 class="text-xl">Communication <span style="font-family: 'Plus Jakarta Sans';"><span style="font-family: 'Plus Jakarta Sans';"><span style="font-family: 'Plus Jakarta Sans';"><span style="font-family: 'Plus Jakarta Sans';"><span style="font-family: 'Plus Jakarta Sans';">&</span></span></span></span></span> Expression</h5>
+                <p class="text-lg">Builds confidence in speaking writing <span style="font-family: 'Plus Jakarta Sans';"><span style="font-family: 'Plus Jakarta Sans';"><span style="font-family: 'Plus Jakarta Sans';"><span style="font-family: 'Plus Jakarta Sans';"><span style="font-family: 'Plus Jakarta Sans';">&</span></span></span></span></span> expressing ideas clearly.</p>
               </div>
                       <div class="child3" data-aos="zoom-in-right" data-aos-duration="2000">
                 <img src="./Icons/Learn3.svg" alt="">
-                <h5 class="text-xl">General Knowledge & Current Affairs</h5>
-                <p class="text-lg">Builds awareness of society, world events, and India’s governance structure.</p>
+                <h5 class="text-xl">General Knowledge <span style="font-family: 'Plus Jakarta Sans';"><span style="font-family: 'Plus Jakarta Sans';"><span style="font-family: 'Plus Jakarta Sans';"><span style="font-family: 'Plus Jakarta Sans';"><span style="font-family: 'Plus Jakarta Sans';">&</span></span></span></span></span> Current Affairs</h5>
+                <p class="text-lg">Builds awareness of society world events and India’s governance structure.</p>
               </div>
                       <div class="child3" data-aos="zoom-out-up" data-aos-duration="2000">
                 <img src="./Icons/Learn4.svg" alt="">
-                <h5 class="text-xl">Ethics, Values & Responsibility</h5>
-                <p class="text-lg">Develops strong character, discipline, and informed citizen.</p>
+                <h5 class="text-xl">Ethics Values <span style="font-family: 'Plus Jakarta Sans';"><span style="font-family: 'Plus Jakarta Sans';"><span style="font-family: 'Plus Jakarta Sans';"><span style="font-family: 'Plus Jakarta Sans';"><span style="font-family: 'Plus Jakarta Sans';">&</span></span></span></span></span> Responsibility</h5>
+                <p class="text-lg">Develops strong character discipline and informed citizen.</p>
               </div>
                       <div class="child3" data-aos="zoom-out-up" data-aos-duration="2000">
                 <img src="./Icons/Learn5.svg" alt="">
-                <h5 class="text-xl">India & Society Awareness</h5>
-                <p class="text-lg">Introduces real-world concepts through simplified examples, discussions & activities.</p>
+                <h5 class="text-xl">India <span style="font-family: 'Plus Jakarta Sans';"><span style="font-family: 'Plus Jakarta Sans';"><span style="font-family: 'Plus Jakarta Sans';"><span style="font-family: 'Plus Jakarta Sans';"><span style="font-family: 'Plus Jakarta Sans';">&</span></span></span></span></span> Society Awareness</h5>
+                <p class="text-lg">Introduces real-world concepts through simplified examples discussions <span style="font-family: 'Plus Jakarta Sans';"><span style="font-family: 'Plus Jakarta Sans';"><span style="font-family: 'Plus Jakarta Sans';"><span style="font-family: 'Plus Jakarta Sans';"><span style="font-family: 'Plus Jakarta Sans';">&</span></span></span></span></span> activities.</p>
               </div>
                       <div class="child3" data-aos="zoom-out-up" data-aos-duration="2000">
                 <img src="./Icons/Learn6.svg" alt="">
                 <h5 class="text-xl">Mentorship-Led Learning</h5>
-                <p class="text-lg">Guided by experienced civil servants & educators who model leadership & integrity.</p>
+                <p class="text-lg">Guided by experienced civil servants <span style="font-family: 'Plus Jakarta Sans';"><span style="font-family: 'Plus Jakarta Sans';"><span style="font-family: 'Plus Jakarta Sans';"><span style="font-family: 'Plus Jakarta Sans';"><span style="font-family: 'Plus Jakarta Sans';">&</span></span></span></span></span> educators who model leadership <span style="font-family: 'Plus Jakarta Sans';"><span style="font-family: 'Plus Jakarta Sans';"><span style="font-family: 'Plus Jakarta Sans';"><span style="font-family: 'Plus Jakarta Sans';"><span style="font-family: 'Plus Jakarta Sans';">&</span></span></span></span></span> integrity.</p>
               </div>
             </div>
              
@@ -520,8 +471,8 @@ target="hidden_iframe">
 </section>
 
 
-<!-- how-works-sec -->
-<section class="main-sec what">
+
+<section class="main-sec what" id="how-it-works">
   <div class="container-cust sprk-parent">
        <div class="sprk-lft" data-aos="flip-left"
      data-aos-easing="ease-out-cubic"
@@ -539,15 +490,15 @@ target="hidden_iframe">
 
     <div class="card-left">
       
-      <!-- Inline icon + heading -->
+
       <div class="card-title">
         <img src="./Icons/ias-icon2.svg" alt="Icon">
         <h4 class="text-xl">Weekly Learning Structure</h4>
       </div>
 
-      <!-- Bullet content -->
+
       <div class="card-content">
-        <p class="dot-text">Live, interactive sessions</p>
+        <p class="dot-text">Live interactive sessions</p>
         <p class="dot-text">Activity-based learning</p>
         <p class="dot-text">Thought-provoking discussions</p>
       </div>
@@ -556,16 +507,16 @@ target="hidden_iframe">
     
     <div class="card-left">
       
-      <!-- Inline icon + heading -->
+
       <div class="card-title">
         <img src="./Icons/ias-icon3.svg" alt="Icon">
         <h4 class="text-xl">Mentorship Approach</h4>
       </div>
 
-      <!-- Bullet content -->
+
       <div class="card-content">
-        <p class="dot-text">Close guidance from civil servants & trained mentors</p>
-        <p class="dot-text">Real-life examples & scenarios</p>
+        <p class="dot-text">Close guidance from civil servants <span style="font-family: 'Plus Jakarta Sans';"><span style="font-family: 'Plus Jakarta Sans';"><span style="font-family: 'Plus Jakarta Sans';"><span style="font-family: 'Plus Jakarta Sans';"><span style="font-family: 'Plus Jakarta Sans';">&</span></span></span></span></span> trained mentors</p>
+        <p class="dot-text">Real-life examples <span style="font-family: 'Plus Jakarta Sans';"><span style="font-family: 'Plus Jakarta Sans';"><span style="font-family: 'Plus Jakarta Sans';"><span style="font-family: 'Plus Jakarta Sans';"><span style="font-family: 'Plus Jakarta Sans';">&</span></span></span></span></span> scenarios</p>
         <p class="dot-text">Focus on clarity over memorising</p>
       </div>
 
@@ -573,15 +524,15 @@ target="hidden_iframe">
     
     <div class="card-left">
       
-      <!-- Inline icon + heading -->
+
       <div class="card-title">
         <img src="./Icons/ias-icon4.svg" alt="Icon">
         <h4 class="text-xl">Learning Tools</h4>
       </div>
 
-      <!-- Bullet content -->
+
       <div class="card-content">
-        <p class="dot-text">Worksheets & structured note-making</p>
+        <p class="dot-text">Worksheets <span style="font-family: 'Plus Jakarta Sans';"><span style="font-family: 'Plus Jakarta Sans';"><span style="font-family: 'Plus Jakarta Sans';"><span style="font-family: 'Plus Jakarta Sans';"><span style="font-family: 'Plus Jakarta Sans';">&</span></span></span></span></span> structured note-making</p>
         <p class="dot-text">Critical thinking </p>
         <p class="dot-text">Real-world case exercises</p>
       </div>
@@ -590,13 +541,13 @@ target="hidden_iframe">
     
     <div class="card-left">
       
-      <!-- Inline icon + heading -->
+
       <div class="card-title">
         <img src="./Icons/ias-icon5.svg" alt="Icon">
         <h4 class="text-xl">Parent Updates</h4>
       </div>
 
-      <!-- Bullet content -->
+
       <div class="card-content">
         <p class="dot-text">Progress reports</p>
         <p class="dot-text">Mentor feedback </p>
@@ -616,8 +567,8 @@ target="hidden_iframe">
   </div>
 </section>
 
-<!-- parent-sec -->
-<section class="why-early">
+
+<section class="why-early" id="benefits">
             <div class="prtnts-chse">              <h2 class="text-4xl">
               Why Parents Choose <span style="color:#1E40AF;">IAS SPARK</span>
               </h2></div>
@@ -628,16 +579,16 @@ target="hidden_iframe">
       
           <div class="why-prtnts-inrr1">
               <button>IAS Spark</button>
-              <p class="text-lg">A calm, curiosity-led learning journey that shapes how children think.</p>
+              <p class="text-lg">A calm curiosity-led learning journey that shapes how children think.</p>
            <div class="why-chose-icon-list">
             <p class="text-lg">Early exposure to leadership-oriented thinking</p>
             <p class="text-lg">Mentorship by distinguished former civil servants</p>
             <p class="text-lg">Focus on how children think—not what they memorise</p>
-            <p class="text-lg">Values-driven, responsibility-focused curriculum</p>
+            <p class="text-lg">Values-driven responsibility-focused curriculum</p>
             <p class="text-lg">Stress-free and curiosity-based approach</p>
-            <p class="text-lg">Real-world understanding, not textbook repetition</p>
+            <p class="text-lg">Real-world understanding not textbook repetition</p>
            </div>
-              <p class="text-lg">IAS SPARK stands apart because it’s built on <span style="font-weight: 600; color: #FFD45D;">credibility, experience and national service values.</span></p>
+              <p class="text-lg">IAS SPARK stands apart because it’s built on <span style="font-weight: 600; color: #FFD45D;">credibility experience and national service values.</span></p>
               <div class="sprk-icon1"><img src="./Icons/ias-spark-icon4.svg" alt=""></div>
           </div>
 
@@ -671,28 +622,12 @@ target="hidden_iframe">
 </section>
 
 
-<!-- civil servants -->
+
  
-<section class="civilservant-sec  cvl-mar d-none d-md-flex">
+<section class="civilservant-sec  cvl-mar d-none d-md-flex" id="about">
   <div class="container-cust position-relative h-75 civl-inr-prt">
-      <h2 class="text-4xl text-center mx-auto" style="width:56%;">Led by <span style="color:#1E40AF;">Former Civil Servants</span> & Expert Educators</h2>
-      <p class="text-lg text-center mx-auto mt-4" style="width:63%;">Our team comprises leaders who have served the nation & understand the importance of clarity, ethics, and strong thinking from a young age. Children learn from role models who inspire discipline, awareness and leadership.</p>
-        <img src="./Icons/educators-icon1.svg" class="position-absolute img-fluid p-4 end-0 heartbeat" style="top:-30%; left:78%; right:20%; bottom:20%;" alt="image">
-        <img src="./Icons/educators-icon2.svg" class="position-absolute img-fluid p-4 end-0 animated-arrow" style="top:40%; left:80%; right:20%; bottom:20%;" alt="image">
-        <img src="./Icons/educators-icon3.svg" class="position-absolute img-fluid p-4 end-0 heartbeat" style="top:-32%; left:50%; " alt="image">
-        <img src="./Icons/educators-icon4.svg" class="position-absolute bottom-0 img-fluid p-4 end-0 heartbeat" style="top:90%; left:40%; " alt="image">
-        <img src="./Icons/educators-icon5.svg" class="position-absolute img-fluid p-4 end-0 heartbeat" style="top:-32%; left:28%; " alt="image">
-        <img src="./Icons/educators-icon6.svg" class="position-absolute bottom-0 img-fluid p-4 end-0 heartbeat" style="top:28%; left:2%;" alt="image">
-        <img src="./Icons/educators-icon7.svg" class="position-absolute bottom-0 img-fluid p-4 end-0 rotate-clockwise" style="top:84%; left:8%; " alt="image">
-        <img src="./Icons/educators-icon8.svg" class="position-absolute bottom-0 img-fluid p-4 end-0 animated-arrow" style="top:-20%; left:4%; " alt="image">
-  </div>
-</section>
-<!-- civil servants mob -->
-  
-<section class="civilservant-sec cvl-mar d-block d-md-none ">
-  <div class="container-cust position-relative h-75 civl-inr-prt">
-      <h2 class="text-4xl text-center mx-auto" style="width:100%;">Led by <span style="color:#1E40AF;">Former Civil Servants</span> & Expert Educators</h2>
-      <p class="text-lg text-center mx-auto mt-4" style="width:100%;">Our team comprises leaders who have served the nation & understand the importance of clarity, ethics, and strong thinking from a young age. Children learn from role models who inspire discipline, awareness and leadership.</p>
+      <h2 class="text-4xl text-center mx-auto" style="width:56%;">Led by <span style="color:#1E40AF;">Former Civil Servants</span> <span style="font-family: 'Plus Jakarta Sans';"><span style="font-family: 'Plus Jakarta Sans';"><span style="font-family: 'Plus Jakarta Sans';"><span style="font-family: 'Plus Jakarta Sans';"><span style="font-family: 'Plus Jakarta Sans';"><span style="font-family: 'Plus Jakarta Sans';">&</span></span></span></span></span></span> Expert Educators</h2>
+      <p class="text-lg text-center mx-auto mt-4" style="width:63%;">Our team comprises leaders who have served the nation <span style="font-family: 'Plus Jakarta Sans';"><span style="font-family: 'Plus Jakarta Sans';"><span style="font-family: 'Plus Jakarta Sans';"><span style="font-family: 'Plus Jakarta Sans';"><span style="font-family: 'Plus Jakarta Sans';">&</span></span></span></span></span> understand the importance of clarity ethics and strong thinking from a young age. Children learn from role models who inspire discipline awareness and leadership.</p>
         <img src="./Icons/educators-icon1.svg" class="position-absolute img-fluid p-4 end-0 heartbeat" style="top:-30%; left:78%; right:20%; bottom:20%;" alt="image">
         <img src="./Icons/educators-icon2.svg" class="position-absolute img-fluid p-4 end-0 animated-arrow" style="top:40%; left:80%; right:20%; bottom:20%;" alt="image">
         <img src="./Icons/educators-icon3.svg" class="position-absolute img-fluid p-4 end-0 heartbeat" style="top:-32%; left:50%; " alt="image">
@@ -704,7 +639,23 @@ target="hidden_iframe">
   </div>
 </section>
 
-<!-- testinomial -->
+  
+<section class="civilservant-sec cvl-mar d-block d-md-none ">
+  <div class="container-cust position-relative h-75 civl-inr-prt">
+      <h2 class="text-4xl text-center mx-auto" style="width:100%;">Led by <span style="color:#1E40AF;">Former Civil Servants</span> <span style="font-family: 'Plus Jakarta Sans';"><span style="font-family: 'Plus Jakarta Sans';"><span style="font-family: 'Plus Jakarta Sans';"><span style="font-family: 'Plus Jakarta Sans';"><span style="font-family: 'Plus Jakarta Sans';">&</span></span></span></span></span> Expert Educators</h2>
+      <p class="text-lg text-center mx-auto mt-4" style="width:100%;">Our team comprises leaders who have served the nation <span style="font-family: 'Plus Jakarta Sans';"><span style="font-family: 'Plus Jakarta Sans';"><span style="font-family: 'Plus Jakarta Sans';"><span style="font-family: 'Plus Jakarta Sans';"><span style="font-family: 'Plus Jakarta Sans';">&</span></span></span></span></span> understand the importance of clarity ethics and strong thinking from a young age. Children learn from role models who inspire discipline awareness and leadership.</p>
+        <img src="./Icons/educators-icon1.svg" class="position-absolute img-fluid p-4 end-0 heartbeat" style="top:-30%; left:78%; right:20%; bottom:20%;" alt="image">
+        <img src="./Icons/educators-icon2.svg" class="position-absolute img-fluid p-4 end-0 animated-arrow" style="top:40%; left:80%; right:20%; bottom:20%;" alt="image">
+        <img src="./Icons/educators-icon3.svg" class="position-absolute img-fluid p-4 end-0 heartbeat" style="top:-32%; left:50%; " alt="image">
+        <img src="./Icons/educators-icon4.svg" class="position-absolute bottom-0 img-fluid p-4 end-0 heartbeat" style="top:90%; left:40%; " alt="image">
+        <img src="./Icons/educators-icon5.svg" class="position-absolute img-fluid p-4 end-0 heartbeat" style="top:-32%; left:28%; " alt="image">
+        <img src="./Icons/educators-icon6.svg" class="position-absolute bottom-0 img-fluid p-4 end-0 heartbeat" style="top:28%; left:2%;" alt="image">
+        <img src="./Icons/educators-icon7.svg" class="position-absolute bottom-0 img-fluid p-4 end-0 rotate-clockwise" style="top:84%; left:8%; " alt="image">
+        <img src="./Icons/educators-icon8.svg" class="position-absolute bottom-0 img-fluid p-4 end-0 animated-arrow" style="top:-20%; left:4%; " alt="image">
+  </div>
+</section>
+
+
 <section class="main-sec what">
   <div class="container-cust">
         <div class="innerparent trust-innr">
@@ -720,12 +671,12 @@ px-4 py-2 gap-2 rounded-pill bg-light mx-auto text-lg ">
             </div>
             <div class="trust-us">
                    
-              <!-- carousel-start -->
-<!-- Carousel -->
+
+
 <div id="testimonialCarousel" class="carousel slide text-center" data-bs-ride="carousel" data-bs-interval="3000">
 <div class="carousel-inner">
 <div class="trust-sct"><img src="./Icons/testino-icon.svg" alt="" class="heartbeat"></div>
-  <!-- Slide 1 -->
+
   <div class="carousel-item active">
     <div class="d-flex flex-column align-items-center justify-content-center py-5">
       <span class="d-flex gap-1 mb-3">
@@ -736,14 +687,15 @@ px-4 py-2 gap-2 rounded-pill bg-light mx-auto text-lg ">
         <img src="./Icons/star-rating.svg" width="22">
       </span>
 
-      <h5 class="mb-3 text-xl  w-75 mx-auto">Meeting real officers motivated my daughter to think beyond textbooks and set higher goals.</h5>
-      <img src="./images/herosce-rt-inr-img2.png" class="rounded-circle mb-2" width="80">
-      <p class="mb-1 text-xl">Parent of Sahana P</p>
+      <h5  class="mb-3 text-xl  w-75 mx-auto">Meeting real officers motivated my daughter to think beyond textbooks and set higher goals.</h5>
+      <img src="./Icons/testi-slide5.svg" class="rounded-circle mb-2" width="80">
+      <h4 class="mb-1 text-xl fw-bold">Priya</h4>
+      <div class="mb-1 text-lg fw-medium sld-prnt">Parent of Sahana </div>
       <p class="text-muted mb-0 text-lg">Grade 10</p>
     </div>
   </div>
 
-  <!-- Slide 2 -->
+
   <div class="carousel-item">
     <div class="d-flex flex-column align-items-center justify-content-center py-5">
       <span class="d-flex gap-1 mb-3">
@@ -755,13 +707,14 @@ px-4 py-2 gap-2 rounded-pill bg-light mx-auto text-lg ">
       </span>
 
       <h5 class="mb-3 text-xl  w-75 mx-auto">IAS SPARK helped my son think clearly and speak confidently. We saw real change in his attitude.</h5>
-      <img src="./images/herosce-rt-inr-img2.png" class="rounded-circle mb-2" width="80">
-      <p class="mb-1 text-xl">Parent of Kiran Kumar</p>
+      <img src="./Icons/testi-slide3.svg" class="rounded-circle mb-2" width="80">
+      <h4 class="mb-1 text-xl fw-bold">Kiran Kumar</h4>
+      <div class="mb-1 text-lg fw-medium sld-prnt">Parent of Aditya</div>
       <p class="text-muted mb-0 text-lg">Grade 9</p>
     </div>
   </div>
 
-  <!-- Slide 3 -->
+
   <div class="carousel-item">
     <div class="d-flex flex-column align-items-center justify-content-center py-5">
       <span class="d-flex gap-1 mb-3">
@@ -772,13 +725,14 @@ px-4 py-2 gap-2 rounded-pill bg-light mx-auto text-lg ">
         <img src="./Icons/star-rating.svg" width="22">
       </span>
 
-      <h5 class="mb-3 text-xl  w-75 mx-auto">My daughter has become more curious, aware, and confident after joining IAS SPARK.</h5>
-      <img src="./images/herosce-rt-inr-img2.png" class="rounded-circle mb-2" width="80">
-      <p class="mb-1 text-xl">Parent of Ananya R</p>
-      <p class="text-muted mb-0 text-lg">Grade 8</p>
+      <h5 class="mb-3 text-xl  w-75 mx-auto">My daughter has become more curious aware and confident after joining IAS SPARK.</h5>
+      <img src="./Icons/testi-slide4.svg" class="rounded-circle mb-2" width="80">
+      <h4 class="mb-1 text-xl fw-bold">Ananya</h4>
+      <div class="mb-1 text-lg fw-medium sld-prnt">Parent of Riya</div>
+      <p class="text-muted mb-0 text-lg">Grade 9</p>
     </div>
   </div>
-  <!-- Slide 4 -->
+
   <div class="carousel-item">
     <div class="d-flex flex-column align-items-center justify-content-center py-5">
       <span class="d-flex gap-1 mb-3">
@@ -789,13 +743,14 @@ px-4 py-2 gap-2 rounded-pill bg-light mx-auto text-lg ">
         <img src="./Icons/star-rating.svg" width="22">
       </span>
 
-      <h5 class="mb-3 text-xl  w-75 mx-auto">This program focuses on thinking skills, not marks. Exactly what children need today.</h5>
-      <img src="./images/herosce-rt-inr-img2.png" class="rounded-circle mb-2" width="80">
-      <p class="mb-1 text-xl">Parent of Aarav S</p>
+      <h5 class="mb-3 text-xl  w-75 mx-auto">This program focuses on thinking skills not marks. Exactly what children need today.</h5>
+      <img src="./Icons/testi-slide1.svg" class="rounded-circle mb-2" width="80">
+      <h4 class="mb-1 text-xl fw-bold">Siddharth</h4>
+      <div class="mb-1 text-lg fw-medium sld-prnt">Parent of Aarav </div>
       <p class="text-muted mb-0 text-lg">Grade 7</p>
     </div>
   </div>
-    <!-- Slide 5 -->
+
   <div class="carousel-item">
     <div class="d-flex flex-column align-items-center justify-content-center py-5">
       <span class="d-flex gap-1 mb-3">
@@ -807,15 +762,16 @@ px-4 py-2 gap-2 rounded-pill bg-light mx-auto text-lg ">
       </span>
 
       <h5 class="mb-3 text-xl  w-75 mx-auto">IAS SPARK improved my child’s communication and logical reasoning in a short time.</h5>
-      <img src="./images/herosce-rt-inr-img2.png" class="rounded-circle mb-2" width="80">
-      <p class="mb-1 text-xl">Parent of Nithin M</p>
-      <p class="text-muted mb-0 text-lg"> Grade 6</p>
+      <img src="./Icons/testi-slide2.svg" class="rounded-circle mb-2" width="80">
+      <h4 class="mb-1 text-xl fw-bold">Manoj singh</h4>
+      <div class="mb-1 text-lg fw-medium sld-prnt">Parent of Nithin </div>
+      <p class="text-muted mb-0 text-lg">Grade 6</p>
     </div>
   </div>
 </div>
 
   <div class="tesi">
-    <!-- Prev -->
+
 <button 
 class="carousel-control-prev position-absolute test-rft" 
 style="left:19%; top:34px; width:auto;"
@@ -826,7 +782,7 @@ data-bs-slide="prev">
   <img src="./Icons/Left Icon.svg" width="45" alt="">
 </button>
 
-<!-- Next -->
+
 <button 
 class="carousel-control-next position-absolute test-lft" 
 style="right:23%; top:34px; width:auto;"
@@ -840,7 +796,7 @@ data-bs-slide="next">
 
 
 </div>
-              <!-- carousel-end -->
+           
             </div>
             <div class="learn1"><img src="./Icons/child-learn1.svg" alt="" class="heartbeat"></div>
         </div>
@@ -848,7 +804,7 @@ data-bs-slide="next">
 </section>
 
 
-<!-- why early-sec  -->
+
 <section class="why-early">
 
   <div class="hero-main container-cust why-early-parent">
@@ -870,17 +826,17 @@ data-bs-slide="next">
            <h5 class="text-xl">Early learning helps students:</h5>
            <div class="why-chose-icon-list">
             <p class="text-xl">Think independently and logically</p>
-            <p class="text-xl">Understand India, governance & real-world issues</p>
+            <p class="text-xl">Understand India governance <span style="font-family: 'Plus Jakarta Sans';"><span style="font-family: 'Plus Jakarta Sans';"><span style="font-family: 'Plus Jakarta Sans';"><span style="font-family: 'Plus Jakarta Sans';"><span style="font-family: 'Plus Jakarta Sans';">&</span></span></span></span></span> real-world issues</p>
             <p class="text-xl">Build confidence and expressive communication</p>
-            <p class="text-xl">Develop responsibility, values, and clarity</p>
+            <p class="text-xl">Develop responsibility values and clarity</p>
             <p class="text-xl">Strengthen overall personality and worldview</p>
            </div>
-            <p class="text-lg lft-early">A balanced, age-appropriate learning environment makes growth natural and effortless.</p>
+            <p class="text-lg lft-early">A balanced age-appropriate learning environment makes growth natural and effortless.</p>
         </div>
   </div>
 </section>
 
-<!-- cta-sec -->
+
 
 <section class="main-sec what ">
   <div class="container-cust cta-sec">
@@ -890,11 +846,18 @@ data-bs-slide="next">
               <h1 class="text-5xl">
                  Ready to start <span style="color:#1E40AF;">learning?</span> 
               </h1>
-              <div class="cta-sec-p"> <p class="text-lg ">Give Your Child the Gift of Clarity, Confidence &<br> Leadership Early in Life.</p></div>
+              <div class="cta-sec-p">   <p class="text-lg">
+    Give Your Child the Gift of Clarity Confidence & &nbsp;Early in Life.
+  </p></div>
             </div>
             <div class="ct-sec">
-                  <a href="#" class=" btn text-small ct-sec1">Talk to Our Counsellor</a>
-                  <a href="#" class="btn text-small ct-sec2">Request a Demo Session</a>
+                <a href="https://wa.me/9187050755" 
+   class="btn text-small ct-sec1" 
+   target="_blank" 
+   rel="noopener noreferrer">
+   Talk to Our Counsellor
+</a>
+                  <a href="#get-in" class="btn text-small ct-sec2">Request a Demo Session</a>
             </div>
 
 
@@ -943,7 +906,7 @@ data-bs-slide="next">
       <img src="Icons/Ias-spark-logo.svg" alt="IAS Spark" class="footer-logo">
 
       <p class="footer-text">
-      Helping children grow into thoughtful, responsible leaders through mentorship, values, and real-world learning.
+      Helping children grow into thoughtful responsible leaders through mentorship values and real-world learning.
       </p>
 
       <div class="social-links">
@@ -978,64 +941,16 @@ data-bs-slide="next">
     <p>© 2026 IAS Spark. All rights reserved.</p>
 
     <div class="footer-legal">
-      <a href="#">Terms & Conditions</a>
+      <a href="#">Terms <span style="font-family: 'Plus Jakarta Sans';"><span style="font-family: 'Plus Jakarta Sans';"><span style="font-family: 'Plus Jakarta Sans';"><span style="font-family: 'Plus Jakarta Sans';"><span style="font-family: 'Plus Jakarta Sans';">&</span></span></span></span></span> Conditions</a>
       <a href="#">Privacy Policy</a>
     </div>
   </div>
 </footer> -->
 
 
-<section class="footer bg-white ">
-  <div class="container-cust">
-    <!-- Flex wrapper for top section -->
-    <div class="d-flex flex-column flex-md-row justify-content-between flex-wrap ftr-cotr gap-3">
-
-      <!-- Left Column: 40% -->
-      <div class="mb-4 col-lg-4 col-md-6" >
-        <img src="Icons/Ias-spark-logo.svg" alt="IAS Spark" class="footer-logo mb-3">
-        <p class="footer-text text-lg">
-          Helping children grow into thoughtful, responsible leaders through mentorship, values, and real-world learning.
-        </p>
-        <div class="social-links mt-3">
-          <a href="#" aria-label="Facebook"><img src="Icons/social-icon1.svg" alt=""></a>
-          <a href="#" aria-label="Instagram"><img src="Icons/social-icon2.svg" alt=""></a>
-          <a href="#" aria-label="Twitter"><img src="Icons/social-icon3.svg" alt=""></a>
-          <a href="#" aria-label="LinkedIn"><img src="Icons/social-icon14.svg" alt=""></a>
-        </div>
-      </div>
-
-      <!-- Middle Column: Menu 20% -->
-      <div class="mb-4 col-lg-2 col-md-3 ftr-cot1" >
-        <h5 class="fw-bold text-xl">Menu</h5>
-        <ul class="list-unstyled d-flex flex-column gap-3">
-          <li><a href="#" class="text-lg text-decoration-none" style="color:#5A5A5A;">About Us</a></li>
-          <li><a href="#" class="text-lg text-decoration-none" style="color:#5A5A5A;">Courses</a></li>
-          <li><a href="#" class="text-lg text-decoration-none" style="color:#5A5A5A;">Help Center</a></li>
-        </ul>
-      </div>
-
-      <!-- Right Column: Tagline 40% --> 
-      <div class="mb-4 footer-col col-lg-5 col-md-12">
-        <h1 class="text-5xl"><span style="color:#FFD45D;">Learn Today.</span><br> Lead Tomorrow.</h1>
-      </div>
-
-    </div>
-
-    <!-- Footer Bottom with Divider -->
-   <div style="border-top:1px solid #D5DBE2;" 
-class="d-flex flex-column flex-md-row justify-content-start justify-content-md-between align-items-start align-items-md-center pt-3 mt-3 ftr-cot2">
-
-      <p class="mb-2 mb-md-0 text-lg">© 2026 IAS Spark. All rights reserved.</p>
-      <div class="ftr-cot2">
-        <a href="#" class=" text-decoration-none me-3 text-lg">Refund Policy <span class="ms-2">|</span>
-</a>
-        <a href="#" class=" text-decoration-none text-lg">Privacy Policy</a>
-      </div>
-    </div>
-
-  </div>
-</section>
-
+<!-- FOOTER -->
+<div data-include="./components/footer.html"></div>
+<script src="JS/include.js"></script>
 
   <script src="./JS/main.js"></script>
   <script src="./JS/form.js"></script>
