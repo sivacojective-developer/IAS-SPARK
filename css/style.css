@@ -16,7 +16,7 @@ h3 {letter-spacing: -2px;}
 
 h2 span{letter-spacing:-2px;} h2 {letter-spacing:-2px;}
 body,p{font-family:"Plus Jakarta Sans",system-ui,sans-serif;font-weight:400;margin: 0 !important;}
-:root{--color-primary:#1E40AF;--color-secondary:#3B82F6;--color-accent:#F59E0B;--color-bg:#FCFCFC;--color-bg-light:#F1F5F9;--color-text:#0F172A;--xll--2:clamp(0.72rem,0.8102rem + -0.1002vw,0.7901rem);--xll--1:clamp(0.8889rem,0.8857rem + 0.0159vw,0.9rem);--xll-0:clamp(1rem,0.9643rem + 0.1786vw,1.125rem);--xll-1:clamp(1.125rem,1.0446rem + 0.4018vw,1.4063rem);--xll-2:clamp(1.2656rem,1.125rem + 0.7031vw,1.7578rem);--xll-3:clamp(1.4238rem,1.2028rem + 1.1049vw,2.1973rem);--xll-4:clamp(1.6018rem,1.2747rem + 1.6354vw,2.7466rem);--xll-5:clamp(1.802rem,1.336rem + 2.3303vw,3.4332rem);--text-small-0:clamp(0.875rem,0.8393rem + 0.1786vw,1rem);--xtra-small-0:clamp(0.625rem,0.5536rem + 0.3571vw,0.875rem);--xll-6:clamp(1rem,0.0596rem + 4.7022vw,4.2915rem)}
+:root{--color-primary:#1E40AF;--color-secondary:#3B82F6;--color-accent:#F59E0B;--color-bg:#FCFCFC;--color-bg-light:#F1F5F9;--color-text:#0F172A;--xll--2:clamp(0.72rem,0.8102rem + -0.1002vw,0.7901rem);--xll--1:clamp(0.8889rem,0.8857rem + 0.0159vw,0.9rem);--xll-0:clamp(1rem,0.9643rem + 0.1786vw,1.125rem);--xll-1:clamp(1.125rem,1.0446rem + 0.4018vw,1.4063rem);--xll-2:clamp(1.2656rem,1.125rem + 0.7031vw,1.7578rem);--xll-3:clamp(1.4238rem,1.2028rem + 1.1049vw,2.1973rem);--xll-4:clamp(1.6018rem,1.2747rem + 1.6354vw,2.7466rem);--xll-5:clamp(1.383rem, 0.7972rem + 2.9289vw, 3.4332rem);--text-small-0:clamp(0.875rem,0.8393rem + 0.1786vw,1rem);--xtra-small-0:clamp(0.625rem,0.5536rem + 0.3571vw,0.875rem);--xll-6:clamp(1rem,0.0596rem + 4.7022vw,4.2915rem)}
 .text-sm{font-size:var(--xll--2)!important}
 .text-base{font-size:var(--xll--1)!important}
 .text-lg{font-size:var(--xll-0)!important}
@@ -152,6 +152,8 @@ a.ct-sec2{background-color:#F1F5F9;padding:12px 26px;border-radius:500px;font-fa
 .cta-icon-6{position:absolute;right:12%;top:50%}
 .cta-icon-2{position:absolute;top:37%;left:4%}
 .cta-icon-9{position:absolute;top:71%;right:5%}
+.ctr-mb{padding: clamp(0.972rem, 0.8175rem + 0.7726vw, 1.5128rem);}
+.ctr-mb img {width: clamp(2.2239rem, 1.0727rem + 5.7561vw, 6.2532rem) !important;}
 .cvl-mar{margin-top:60px}
 .ignite-sec{background:#FCFCFC;padding-top:100px}
 .cout-sec h3{font-family:"Helvetica Neue";font-weight:700;color:#FFD45D}

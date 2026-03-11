@@ -47,7 +47,7 @@
 .why-early-icon1 img{width:70%}
 .why-early-icon2{top:0}
 .why-early-icon1{top:24px;left:60%}
-.cta-icon-1 img{width:40px}
+.cta-icon-1 img{width:20px}
 .cta-icon-1{left:15%}
 .cta-icon-5 img{width:200px}
 .cta-icon-9 img{width:50px}
@@ -57,7 +57,7 @@
 .cta-icon-3{top:36%;left:5%}
 .cta-icon-2 img{width:24px}
 .cta-icon-2{top:56%;left:-2%}
-.cta-icon-6 img{width:18px}
+.cta-icon-6 img{width:24px}
 .cta-icon-6{top:44%}
 .cta-icon-7 img{width:37px}
 .cta-icon-7{top:28%}
@@ -81,6 +81,7 @@
 .nav-container{padding:3% 5%}
 .get-lft{background-size:cover}
 .get-in h2{letter-spacing:-1.5px!important}
+
 
 
 
@@ -117,7 +118,7 @@
 .hro-sec{padding-top:74px}
 .ignite-sec{padding-top:0;margin-top:-60px}
 .ignite-lead{padding:0 18px}
-.slil-ctr{top:90%;left:0}
+.slil-ctr{top:100%;left:0}
 .ignite-lead{width:100%}
 .ctr-mb{box-shadow:0 4px 10px 0 #00000026;border-radius:10px}
 .ctr-tab{row-gap:25px;column-gap:25px;margin:20px 0}
@@ -140,24 +141,26 @@
 .prtnts-chse{padding-top:116px}
 .why-parnts-sec{margin-top:-30px}
 .why-prtnts-inrr1{padding:26px}
-.why-prtnts-inrr1 button{width:46%}
+.why-prtnts-inrr1 button{width:100%;text-align: center;}
 .learn1 img {width: 266px;}
 .slil-ctr img {width: 40px;}
 .prtnts-chse h2 {padding: 0px 20px;}
+.why-early-icon2 {right: 34px;}
 .test-lft { right: 4% !important;}
 .test-rft { left: 4% !important;}
 .why-inr-lft h2{width:100%}
 .why-early-icon2 img{width:100%}
 .why-early-icon2{left:80%;top:-35px}
 .why-early-icon1 img{width:50%}
-.why-early-icon1{top:60px;left:80%}
+.why-early-icon1{top:30px;left:88%}
 .why-inr-rgt{gap:20px}
 .ct-sec{display:contents}
 .cta-icon-5 img{width:63px}
 .civl-inr-prt img:nth-of-type(2),.cta-icon-8,.cta-icon-7,.cta-icon-2,.cta-icon-3,.cta-icon-4{display:none}
-.cta-icon-1{left:6%}
-.cta-icon-6{top:30%}
-.cta-icon-6 img{width:32px}
+.cta-icon-1{left:2%;top:40px;}
+.cta-icon-6{top:8%;right:4%;}
+.why-gallery-masonry {margin-bottom: -36px;}
+.cta-icon-6 img{width:18px}
 .cta-parnt{padding-bottom:50px; margin-top: 100px; margin-bottom: -50px;}
 a.ct-sec2 {margin-top: -20px;}
 .innerparent{gap: 36px;}
