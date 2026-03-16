@@ -152,8 +152,12 @@ a.ct-sec2{background-color:#F1F5F9;padding:12px 26px;border-radius:500px;font-fa
 .cta-icon-6{position:absolute;right:12%;top:50%}
 .cta-icon-2{position:absolute;top:37%;left:4%}
 .cta-icon-9{position:absolute;top:71%;right:5%}
+.ct-sec a:hover {color: #fea815;background: #f1f5f9;}
+.ftr-cot1 li a:hover{color:#1e40af !important; font-weight: 600;}
+.why-prtnts-inrr1 {align-items: start;}
+.z-1{z-index:1;}
 .ctr-mb{padding: clamp(0.972rem, 0.8175rem + 0.7726vw, 1.5128rem);}
-.ctr-mb img {width: clamp(2.2239rem, 1.0727rem + 5.7561vw, 6.2532rem) !important;}
+.ctr-mb img {width: clamp(2.861rem, 1.8616rem + 4.9973vw, 6.3592rem) !important;}
 .cvl-mar{margin-top:60px}
 .ignite-sec{background:#FCFCFC;padding-top:100px}
 .cout-sec h3{font-family:"Helvetica Neue";font-weight:700;color:#FFD45D}

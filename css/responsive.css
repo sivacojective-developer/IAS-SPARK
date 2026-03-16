@@ -4,7 +4,7 @@
 @media (max-width: 1024px) {
 
 .menu-toggle{display:block}
-.logo img{height:28px}
+.logo img{height:36px}
 .nav-menu{position:absolute;top:100%;left:0;right:0;background:var(--color-bg);flex-direction:column;display:none;padding:1rem}
 .nav-menu.open{display:flex}
 .child2{grid-template-columns:repeat(2,2fr);gap:20px}
@@ -81,7 +81,7 @@
 .nav-container{padding:3% 5%}
 .get-lft{background-size:cover}
 .get-in h2{letter-spacing:-1.5px!important}
-
+.why-prtnts-inrr1 {align-items: start;}
 
 
 
@@ -141,7 +141,7 @@
 .prtnts-chse{padding-top:116px}
 .why-parnts-sec{margin-top:-30px}
 .why-prtnts-inrr1{padding:26px}
-.why-prtnts-inrr1 button{width:100%;text-align: center;}
+.why-prtnts-inrr1 button{width:50%;text-align: center;}
 .learn1 img {width: 266px;}
 .slil-ctr img {width: 40px;}
 .prtnts-chse h2 {padding: 0px 20px;}
@@ -164,6 +164,10 @@
 .cta-parnt{padding-bottom:50px; margin-top: 100px; margin-bottom: -50px;}
 a.ct-sec2 {margin-top: -20px;}
 .innerparent{gap: 36px;}
+.why-prtnts-inrr1 {align-items: center;}
+
+.why-gallery-masonry {column-gap: 12px;}
+.why-gallery-masonry img {display: block;margin-bottom: 12px;}
 .cta-icon-9{top:90%;right:25%}
 .civl-inr-prt img:nth-of-type(1){width:20%}
 .civl-inr-prt img:nth-of-type(5){width:17%}
