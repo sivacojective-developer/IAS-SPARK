@@ -29,7 +29,7 @@ to{stroke-dashoffset:50}
 70%{transform:scale(1)}
 }
 .heartbeat{display:inline-block;animation:heartbeat 1.9s ease-in-out infinite;transform-origin:center}
-.scrolling-words-box{height:1.05em;overflow:hidden;display:inline-block}
+/* .scrolling-words-box{height:1.05em;overflow:hidden;display:inline-block}
 .scrolling-words{display:flex;flex-direction:column;animation:scrollUp 5s linear infinite}
 .scrolling-words span{height:1.4em;display:flex;align-items:center;color:#FFD45D}
 @keyframes scrollUp {
@@ -37,4 +37,76 @@ to{stroke-dashoffset:50}
 40%,50%{transform:translateY(-40%)}
 65%,75%{transform:translateY(-60%)}
 90%,100%{transform:translateY(-80%)}
+} */
+.scrolling-words-box {
+  height: 1.25em;
+  overflow: hidden;
+  display: inline-block;
+
+  vertical-align: middle;      /* FIX alignment */
+  transform: translateY(2px);  /* fine tune (adjust 1–3px if needed) */
+}
+
+.scrolling-words {
+  display: flex;
+  flex-direction: column;
+  animation: scrollUp 5s linear infinite;
+}
+
+.scrolling-words span {
+  height: 1.25em;
+  line-height: 1.25em;
+  display: block;
+  color: #FFD45D;
+  white-space: nowrap;
+}
+
+/* KEEP YOUR ORIGINAL ANIMATION */
+@keyframes scrollUp {
+  15%, 25% {
+    transform: translateY(-1.25em);
+  }
+
+  40%, 50% {
+    transform: translateY(-2.5em);
+  }
+
+  65%, 75% {
+    transform: translateY(-3.75em);
+  }
+
+  90%, 100% {
+    transform: translateY(-5em);
+  }
+}
+
+/* MOBILE */
+@media (max-width: 767px) {
+  .scrolling-words-box {
+    height: 1.35em;
+    transform: translateY(1px); /* slightly adjust for mobile */
+  }
+
+  .scrolling-words span {
+    height: 1.35em;
+    line-height: 1.35em;
+  }
+
+  @keyframes scrollUp {
+    15%, 25% {
+      transform: translateY(-1.35em);
+    }
+
+    40%, 50% {
+      transform: translateY(-2.7em);
+    }
+
+    65%, 75% {
+      transform: translateY(-4.05em);
+    }
+
+    90%, 100% {
+      transform: translateY(-5.4em);
+    }
+  }
 }

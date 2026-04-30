@@ -1,20 +1,32 @@
 
-// Header menu toggle 
+// Header menu toggle + close on click
 
-document.addEventListener("click", function(e){
+document.addEventListener("click", function (e) {
 
-if(e.target.closest("#menuToggle")){
+  const toggle = document.getElementById("menuToggle");
+  const menu = document.getElementById("navMenu");
 
-const toggle = document.getElementById("menuToggle");
-const menu = document.getElementById("navMenu");
+  if (!toggle || !menu) return;
 
-menu.classList.toggle("open");
-toggle.classList.toggle("active");
+  // TOGGLE MENU
+  if (e.target.closest("#menuToggle")) {
+    menu.classList.toggle("open");
+    toggle.classList.toggle("active");
+  }
 
-}
+  // CLOSE MENU WHEN NAV LINK CLICKED
+  if (e.target.closest("#navMenu a")) {
+    menu.classList.remove("open");
+    toggle.classList.remove("active");
+  }
+
+  // CLOSE MENU WHEN CTA CLICKED
+  if (e.target.closest(".hdr-ct a")) {
+    menu.classList.remove("open");
+    toggle.classList.remove("active");
+  }
 
 });
-
 
 // counter js
 

@@ -94,6 +94,10 @@
 
 /* mobile-responsive */
 @media (max-width: 480px) {
+h3 {letter-spacing: 0px;}
+h5 {letter-spacing: 0px !important;}
+h3 {letter-spacing: 0px;}
+h2 span{letter-spacing:0px;}   
 .child1 h2 {margin-top: 0px;}
 .bnr-img{width:100%;display:none}
 .card-wrks{grid-template-columns:repeat(1,2fr)}

@@ -11,10 +11,9 @@ h3 {letter-spacing: -2px;}
 h3 {letter-spacing: -2px;}
 h5 {letter-spacing: -1px !important;}
 h3 {letter-spacing: -2px;}
-.sld-prnt {font-family:"Plus Jakarta Sans medium" !important;}
-
-
 h2 span{letter-spacing:-2px;} h2 {letter-spacing:-2px;}
+.sld-prnt {font-family:"Plus Jakarta Sans medium" !important;}
+.section-anchor {position: relative;top: -90px; height: 0;visibility: hidden;}
 body,p{font-family:"Plus Jakarta Sans",system-ui,sans-serif;font-weight:400;margin: 0 !important;}
 :root{--color-primary:#1E40AF;--color-secondary:#3B82F6;--color-accent:#F59E0B;--color-bg:#FCFCFC;--color-bg-light:#F1F5F9;--color-text:#0F172A;--xll--2:clamp(0.72rem,0.8102rem + -0.1002vw,0.7901rem);--xll--1:clamp(0.8889rem,0.8857rem + 0.0159vw,0.9rem);--xll-0:clamp(1rem,0.9643rem + 0.1786vw,1.125rem);--xll-1:clamp(1.125rem,1.0446rem + 0.4018vw,1.4063rem);--xll-2:clamp(1.2656rem,1.125rem + 0.7031vw,1.7578rem);--xll-3:clamp(1.4238rem,1.2028rem + 1.1049vw,2.1973rem);--xll-4:clamp(1.6018rem,1.2747rem + 1.6354vw,2.7466rem);--xll-5:clamp(1.383rem, 0.7972rem + 2.9289vw, 3.4332rem);--text-small-0:clamp(0.875rem,0.8393rem + 0.1786vw,1rem);--xtra-small-0:clamp(0.625rem,0.5536rem + 0.3571vw,0.875rem);--xll-6:clamp(1rem,0.0596rem + 4.7022vw,4.2915rem)}
 .text-sm{font-size:var(--xll--2)!important}
@@ -63,7 +62,14 @@ body{font-size:var(--xll-0);line-height:1.6;color:var(--color-text);background-c
 .inner-lft p{margin-top:-14px}
 .inner-lft h1{font-family:Helvetica Neue;width:88%}
 .btn-hero{display:flex;flex-direction:row;align-items:flex-start;gap:15px}
-.ignite-bg{color:#1E40AF;background-image:url(../Icons/Ignite.svg);background-repeat:no-repeat;background-size:contain;background-position:center bottom;padding:0 26px;display:inline-block;margin-left:-20px}
+.ignite-bg {
+  color: #1E40AF;
+  background: url(../Icons/Ignite.svg) no-repeat center bottom;
+  background-size: 100% 100%;   /* control underline height */
+
+  display: inline;
+  padding: 6px;                  /* remove extra spacing */
+}
 .btn-hero .btn{text-decoration:none;padding:12px 24px;font-weight:600;border-radius:5000px;display:inline-flex;align-items:center;justify-content:center;color:#000}
 .btn-primary{background:var(--Accent,#FFD45D)}
 .btn-secondary{background:var(--Light-Background,#F1F5F9)}
